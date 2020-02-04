@@ -9,6 +9,15 @@ h3 {
 p {
     font-family: 'Noto Sans', sans-serif;
 }
+
+.notoFont {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.fireFont {
+    font-family: 'Fira Code', monospace;
+}
+
 head {
     margin: 0px;
     padding: 0px;
@@ -69,17 +78,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-
-    position: static;
-
-    float: left;
-
-    overflow: hidden;
-
-    margin: 0;
-    padding: 0;
-
-    width: 100%;
-    height: 240px;
+    height: 250px
 }
 
+.introHeader {
+    color: #fff;
+    margin-left: 3%;
+}
